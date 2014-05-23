@@ -57,9 +57,7 @@ public void nativeCall()
 	d.setB(6);
 	d.setC(8);
 	Test.setD(d);
-	//outputText.append("the structure values " +d.a + "  " + d.b + " " + d.c + "\n");
-	//d=Structure.getvalue(d);	
-	//outputText.append("the structure values " +d.a + "  " + d.b + "  " + d.c + "\n");
+
 	Test.setValue(d);
 	//outputText.append("the structure values " +d.a + "  " + d.b + " " + d.c + "\n");
 	
