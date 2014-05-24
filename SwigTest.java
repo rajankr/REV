@@ -10,9 +10,9 @@ import android.text.method.ScrollingMovementMethod;
 
 public class SwigTest extends Activity
 {
-    TextView outputText = null;
+   
     ScrollView scroller = null;
-
+	 TextView outputText = null;
    
     @Override
     public void onCreate(Bundle savedInstanceState)
