@@ -13,7 +13,7 @@ public class SwigTest extends Activity
     TextView outputText = null;
     ScrollView scroller = null;
 
-    /** Called when the activity is first created. */
+   
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -53,15 +53,12 @@ public void nativeCall()
 	
 	
 	d=Test.getD();
-	d.setA(5);
-	d.setB(6);
-	d.setC(8);
-	Test.setD(d);
-	//outputText.append("the structure values " +d.a + "  " + d.b + " " + d.c + "\n");
-	//d=Structure.getvalue(d);	
-	//outputText.append("the structure values " +d.a + "  " + d.b + "  " + d.c + "\n");
+	//d.setA(5);
+	//d.setB(6);
+	//d.setC(8);
+	//Test.setD(d);
+	
 	Test.setValue(d);
-	//outputText.append("the structure values " +d.a + "  " + d.b + " " + d.c + "\n");
 	
 
 
@@ -71,6 +68,6 @@ public void nativeCall()
         System.loadLibrary("Test");
     }
 
-
+/// git 
 
 }
