@@ -53,11 +53,19 @@ public void nativeCall()
 	
 	
 	d=Test.getD();
+<<<<<<< HEAD
 	//d.setA(5);
 	//d.setB(6);
 	//d.setC(8);
 	//Test.setD(d);
 	
+=======
+	d.setA(5);
+	d.setB(6);
+	d.setC(8);
+	Test.setD(d);
+
+>>>>>>> ab6405bcfd5995146715fddace3da78a8d39ca74
 	Test.setValue(d);
 	
 
